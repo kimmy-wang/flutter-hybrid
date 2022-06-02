@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Swift Boilerplate
+
+  Created by Ying Wang on 2022/2/10.
+  
+*/
+
+// tab bar
+"home" = "首页";
+"mine" = "我的";
+
+// home
+"no_more_data" = "没有更多数据了";
+
+// settings
+"settings" = "设置";
+"languages" = "语言环境";
+"dark_mode" = "外观";
+"theme" = "主题";
+"system" = "自动";
+"light" = "浅色";
+"dark" = "深色";
+
+// mine url
+"mine_url" = "https://readme.gitterapp.com/?locale=zh_CN";
