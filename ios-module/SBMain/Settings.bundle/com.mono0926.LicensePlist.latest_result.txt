@@ -42,7 +42,7 @@ version: 5.0.1
 
 name: SwiftLint, nameSpecified: 
 body: The MIT License (MIT…
-version: 0.46.2
+version: 0.47.1
 
 name: SwiftTheme, nameSpecified: 
 body: The MIT License (MIT…

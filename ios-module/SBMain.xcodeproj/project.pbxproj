@@ -52,7 +52,6 @@
 		2E97915227BD227600935E31 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97915127BD227600935E31 /* Application.swift */; };
 		2EE6F27D27BE74D400386D99 /* SBMainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6F27C27BE74D400386D99 /* SBMainTests.swift */; };
 		2EE849EF27D8DD0400E0B699 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 2EE849EC27D8DD0400E0B699 /* fastlane */; };
-		2EE849F027D8DD0400E0B699 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 2EE849ED27D8DD0400E0B699 /* Gemfile.lock */; };
 		2EE849F127D8DD0400E0B699 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 2EE849EE27D8DD0400E0B699 /* Gemfile */; };
 		3898C4A58AE34C231C8B34ED /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3898C6F984641474F30FE787 /* .swiftlint.yml */; };
 		3898C56218618D48FD1AA7CA /* .github in Resources */ = {isa = PBXBuildFile; fileRef = 3898CF9A56E11E72592D7103 /* .github */; };
@@ -144,7 +143,6 @@
 		2EE6F27A27BE74D400386D99 /* SBMainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBMainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE6F27C27BE74D400386D99 /* SBMainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBMainTests.swift; sourceTree = "<group>"; };
 		2EE849EC27D8DD0400E0B699 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
-		2EE849ED27D8DD0400E0B699 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
 		2EE849EE27D8DD0400E0B699 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		3898C30EDC0710C913CF1103 /* HomeNewsDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeNewsDetailViewController.xib; sourceTree = "<group>"; };
 		3898C6F984641474F30FE787 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -304,7 +302,6 @@
 			isa = PBXGroup;
 			children = (
 				2EE849EE27D8DD0400E0B699 /* Gemfile */,
-				2EE849ED27D8DD0400E0B699 /* Gemfile.lock */,
 				2E3A2D1327A6BD9800855DDA /* .gitignore */,
 				2E3A2D1127A6BC7100855DDA /* LICENSE.md */,
 				2E3A2D1027A6BC4E00855DDA /* README.md */,
@@ -478,7 +475,6 @@
 				2EE849EF27D8DD0400E0B699 /* fastlane in Resources */,
 				2E3A2D1427A6BD9800855DDA /* .gitignore in Resources */,
 				2E406B9427B3B04300C9C0AE /* Settings.bundle in Resources */,
-				2EE849F027D8DD0400E0B699 /* Gemfile.lock in Resources */,
 				3898C4A58AE34C231C8B34ED /* .swiftlint.yml in Resources */,
 				2E2794D927F5D2A500F3A4AF /* HomeTableViewCell.xib in Resources */,
 				3898C56218618D48FD1AA7CA /* .github in Resources */,

@@ -94,7 +94,7 @@
 			<key>File</key>
 			<string>com.mono0926.LicensePlist/SwiftLint</string>
 			<key>Title</key>
-			<string>SwiftLint (0.46.2)</string>
+			<string>SwiftLint (0.47.1)</string>
 			<key>Type</key>
 			<string>PSChildPaneSpecifier</string>
 		</dict>
