@@ -21,6 +21,7 @@ class AppDelegate: FlutterAppDelegate {
         // status bar
         UIApplication.shared.theme_setStatusBarStyle([.lightContent, .default, .lightContent, .lightContent], animated: true)
         let flutterEngine = FlutterEngine(name: "my flutter engine")
+        flutterEngine.run(withEntrypoint: nil)
         Application.shared.flutterEngine = flutterEngine
         GeneratedPluginRegistrant.register(with: flutterEngine)
 

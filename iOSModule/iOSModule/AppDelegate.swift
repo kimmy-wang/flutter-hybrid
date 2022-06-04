@@ -15,6 +15,8 @@ class AppDelegate: FlutterAppDelegate {
     override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let flutterEngine = FlutterEngine(name: "my flutter engine")
+        flutterEngine.run(withEntrypoint: nil)
+        GeneratedPluginRegistrant.register(with: flutterEngine)
         let window = UIWindow(frame: UIScreen.main.bounds)
         let vc = HomeViewController(engine: flutterEngine)
 
