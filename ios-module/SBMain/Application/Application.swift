@@ -13,6 +13,7 @@ import FlutterPluginRegistrant
 final class Application {
 
     var flutterEngine: FlutterEngine?
+    var project: FlutterDartProject?
 
     static let shared = Application()
 

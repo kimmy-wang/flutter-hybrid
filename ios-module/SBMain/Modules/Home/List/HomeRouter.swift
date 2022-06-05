@@ -37,7 +37,7 @@ open class HomeRouter: HomePresenterToRouterProtocol {
         let newsDetailViewController = HomeNewsDetailRouter.createModule(forNews: news)
    
         if let sourceView = view as? UIViewController {
-           sourceView.navigationController?.pushViewController(newsDetailViewController, animated: false)
+           sourceView.navigationController?.pushViewController(newsDetailViewController, animated: true)
         }
     }
 }

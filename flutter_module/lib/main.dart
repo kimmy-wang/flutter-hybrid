@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      routes: {
+        '/detail': (BuildContext context) => const SecondPage()
+      },
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -105,3 +108,22 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+class SecondPage extends StatefulWidget {
+  const SecondPage({Key? key}) : super(key: key);
+
+  @override
+  State<SecondPage> createState() => _SecondPageState();
+}
+
+class _SecondPageState extends State<SecondPage> {
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(
+      body: Center(
+        child: Text('detail'),
+      ),
+    );
+  }
+}
+

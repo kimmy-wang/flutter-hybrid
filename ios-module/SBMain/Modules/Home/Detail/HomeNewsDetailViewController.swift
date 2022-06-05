@@ -15,8 +15,8 @@ class HomeNewsDetailViewController: FlutterViewController {
         super.init(coder: aDecoder)
     }
 
-    init(engine flutterEngine: FlutterEngine) {
-        super.init(engine: flutterEngine, nibName: nil, bundle: nil)
+    init(route initialRoute: String) {
+        super.init(project: Application.shared.project, initialRoute: initialRoute, nibName: nil, bundle: nil)
     }
 
     // MARK: - Properties
@@ -26,12 +26,8 @@ class HomeNewsDetailViewController: FlutterViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let label = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
-        label.text = presenter?.news?.description
-        label.textColor = .red
         self.title = "NewsDetail"
         self.view.backgroundColor = .white
-        self.view.addSubview(label)
     }
 
 }
